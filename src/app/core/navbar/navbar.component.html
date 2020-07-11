@@ -1,0 +1,17 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <a href="javascript:;" class="navbar-toggle" (click)="showMenu = !showMenu"><i class="pi pi-bars"> </i></a>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navbar-menu" [hidden]="!showMenu">
+    <li class="navbar-usuario">Jorge Souza</li>
+    <li class="navbar-menu-item" routerLinkActive="ativo"><a routerLink="/lancamentos">Lançamentos</a></li>
+    <li class="navbar-menu-item" routerLinkActive="ativo"><a routerLink="/pessoas">Pessoas</a></li>
+    <li class="navbar-menu-item"><a href="#">Logout</a></li>
+  </ul>
+
+</nav>

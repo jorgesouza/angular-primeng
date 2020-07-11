@@ -24,6 +24,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/ng2-toasty/style-bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "algamoney-ui"
+    }
+  },
+  "defaultProject": "algamoney-ui",
+  "cli": {
+    "analytics": false
+  }
 }
